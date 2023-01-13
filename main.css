@@ -718,18 +718,28 @@ img {
       height: 32px;
     }
     .menu_body{display: none;}
-	.the__key{font-size:64px;}
-	.sit__tellus{text-alight:center}
+	.the__key{font-size:64px;
+	    line-height: 71px;}
+	.sit__tellus{font-size: 8px;
+    font-weight: 400;
+    line-height: 28px;
+	margin-top: 10px;}
     .wrapper__scroll-line{display: none;}
     .icon_link{display: none;}
     .logo{margin: 20px;}
     .wrapper__Bar-Gericht{display: none;}
     .small__wapper-one{margin: 0;}
+	.book__table{font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;}
     .section__wrapper-one{margin-top: 0;}
-    .reservations__block-three{margin-top: 30px;margin-left: 0;height: 595px;}
+    .reservations__block-three{margin-top: 30px;margin-left: 0;max-height: 595px;}
     .wrapper__block-one{ flex-direction: column;}
     .images__hero{margin-left: 0;
         margin-top: 50px;}
+	.today’s__special{font-size: 39px;
+    font-weight: 600;
+    line-height: 42px;}
         .serch__form-input{margin:5px 0px;}
         .btn__book-now{margin-top: 10px;}
     .menu__wrapper-big{
@@ -738,6 +748,9 @@ img {
         align-items: center;
         margin-bottom: 0;
     }
+	.today’s__special{font-size: 39px;
+    font-weight: 600;
+    line-height: 42px;}
     .btn__view-more{margin-left: 132px;margin-top: 10px;}
     .testimony__seven{margin-top: 50px;}
     .testimony__wrapper-big{flex-direction: column;
@@ -745,23 +758,48 @@ img {
     align-items: center;}
     .testimony__wrapper-medium{margin: 0;}
     .testimony__wrapper-small{margin-top: 30px;}
-	.lorem__text{font-size: 13px;
-	line-height: 17px;}
+	.lorem__text{font-size: 12px;
+	line-height: 15px;}
+	.name__person{font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;}
     .food__twelve{display:none}
-	.lorem__twelv{text-alight:center}
+	.photo__gallery{font-size: 50px;
+    line-height: 30px;}
+	.lorem__twelv{font-size: 11px;}
     .instagram__wrapper-small{margin-top: 55px;}
     .food__twelve-two{display: none;}
-    .block__newsletter{height: 575px;margin-left: 0;}
+    .block__newsletter{max-height: 575px;margin-left: 0;margin-top: 40px;}
+	.subscribe__form{font-size: 45px;
+    line-height: 60px;}
     .last__container{margin-top: 0;}
-    .serch__forms{padding: 10px;}
+	.subscribe__form{font-size: 46px;
+    font-weight: 600;
+    line-height: 55px;}
+    .serch__forms{padding: 10px;
+	margin-top:20px;
+	display:flex;
+	flex-direction:column;
+	alight-items:center;}
     .img__icon{height: 208px;
         width: 185px}
+	.photo__gallery{font-size: 58px;
+    line-height: 45px;}
         .button__menu {margin-left: 130px;}
     .last__block{margin-top: 50px;}
+	.photo__gallery{font-size: 57px;
+    font-weight: 600;
+    line-height: 50px;}
+	.last__capital-text{font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;}
+	.lorem__ipsum{font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;}
     .verybigwrapper{flex-direction: column;
         justify-content: center;
         align-items: center;}
-        .imgas__g{top: 750px;
+        .imgas__g{top: 350px;
             right: -36px;}
     .text__wrapper{margin-left: 10px;
         margin-top: -5px;}
