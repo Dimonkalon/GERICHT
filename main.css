@@ -84,6 +84,7 @@ img {
   }
   .logotext{
     display: flex;
+    cursor: pointer;
   }
   .menu_list{
     display: flex;
@@ -222,6 +223,7 @@ img {
     color: #0C0B08;
     background: #DCCA87;
     margin-top: 32px;
+    cursor: pointer;
 }
 .images__hero{
     margin-left: 80px;
@@ -232,7 +234,7 @@ img {
     position:fixed ;
     cursor: pointer;
     z-index: 3;
-    top: 550px;
+    bottom: 20px;
     right: 20px;
 }
 .scroll__lines{
@@ -274,7 +276,7 @@ img {
     background: #0C0C0C;
     border: 1px solid rgba(220, 202, 135, 0.2);
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
-    margin-left: 50px;
+    margin: 0 auto;
     text-align: center;
 }
 .reservations{
@@ -324,6 +326,7 @@ img {
     color: #0C0C0C;
     background: #DCCA87;
     margin-top: 64px;
+    cursor: pointer;
 }
 /**************************section5********************/
 .block-five{
@@ -428,6 +431,7 @@ img {
     margin-top: -10px;
     justify-content: center;
     margin-left: 650px;
+    cursor: pointer;
 }
 /*******************************section7************************************/
 .testimony__seven{
@@ -549,6 +553,7 @@ img {
     line-height: 28px;
     letter-spacing: 0.04em;
     margin-top: 24px;
+    cursor: pointer;
 }
 .img__wrapper-11{
     
@@ -566,7 +571,7 @@ img {
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
     margin-left: 115px;
     text-align: center;
-    margin-top: 60px;
+    margin: 0 auto;
 }
 .newsletter{
     font-family: 'Cormorant Upright', serif;
@@ -622,6 +627,7 @@ img {
     color: #0C0C0C;
     margin-top: 10px;
     margin-left: 32px;
+    cursor: pointer;
 }
 /***********************************************************/
 .last__block{
@@ -712,6 +718,8 @@ img {
       height: 32px;
     }
     .menu_body{display: none;}
+	.the__key{font-size:64px;}
+	.sit__tellus{text-alight:center}
     .wrapper__scroll-line{display: none;}
     .icon_link{display: none;}
     .logo{margin: 20px;}
@@ -731,13 +739,16 @@ img {
         margin-bottom: 0;
     }
     .btn__view-more{margin-left: 132px;margin-top: 10px;}
-    .testimony__seven{margin-top: 0;}
+    .testimony__seven{margin-top: 50px;}
     .testimony__wrapper-big{flex-direction: column;
     justify-content: center;
     align-items: center;}
     .testimony__wrapper-medium{margin: 0;}
     .testimony__wrapper-small{margin-top: 30px;}
-    .food__twelve{margin-top: 0;}
+	.lorem__text{font-size: 13px;
+	line-height: 17px;}
+    .food__twelve{display:none}
+	.lorem__twelv{text-alight:center}
     .instagram__wrapper-small{margin-top: 55px;}
     .food__twelve-two{display: none;}
     .block__newsletter{height: 575px;margin-left: 0;}
@@ -755,6 +766,8 @@ img {
     .text__wrapper{margin-left: 10px;
         margin-top: -5px;}
         .footer{margin-top: 80px;}
+	.footer__wrapper{display: flex;
+    flex-direction: column;}
         .footer__gericht{margin-left: 0;
             margin-top: 0;}
 }
